@@ -12,7 +12,7 @@ def defineArgs():
     parser.add_argument(
         "-c", "--command",
         type=str,
-        default='printf "Default \\"cwatch\\" command.\nCommand test, using \\"date\\" command within echo:\n\n$(date)"',
+        default='printf "Default \\"cwatch\\" command.\nCommand test, using \\"date\\" command within \\"printf\\":\n\n$(date)"',
         help="The command to execute and watch."
     )
     parser.add_argument(

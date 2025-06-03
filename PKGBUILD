@@ -11,7 +11,7 @@ license=('MIT')
 depends=('python' 'util-linux')
 
 source=("${pkgname}.py")
-sha256sums=('5e01f3aa7d0ef5f3b11ae533f336e8b4e82b57377bbb690bbb6af890890f507e') 
+sha256sums=('7e0daded6d89f97d3a528d1a241b341ffc3046ffc0f6edbd516cc4443ef9a3ea') 
 
 source+=("LICENSE")
 sha256sums+=('d727d1ca3421c68d924a4c5729913cb8bf0361b7a8cf48fa6fa83053f11a6a5b')
@@ -24,4 +24,3 @@ package() {
     install -Dm755 "${srcdir}/${pkgname}.py" "${pkgdir}/usr/bin/${pkgname}"
     install -Dm644 "${srcdir}/LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
 }
-
