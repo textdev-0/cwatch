@@ -2,7 +2,11 @@
 pkgname=cwatch
 pkgver=0.7.0
 pkgrel=1
+<<<<<<< HEAD
 pkgdesc="Similar to watch or hwatch, but supporting terminal formatting, making commands such as fastfetch properly work, along with actually proper colour support."
+=======
+pkgdesc="Continuously watch and display the output of a command, similar to watch or hwatch, but supporting terminal formatting, making commands such as fastfetch properly work, along with colours."
+>>>>>>> origin/main
 arch=('any')
 url="https://www.github.com/textdev-0/cwatch"
 license=('MIT')
